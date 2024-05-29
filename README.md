@@ -8,16 +8,17 @@ It’s worth noting that the collected images varied in size. Subsequently, thes
 stored in an unstructured data format within Google Drive.
 
 ## Exploratory Data Analysis (EDA)
-To assess the uniformity in the dimensions of images \
+To assess the uniformity in the dimensions of images 
 ~~~
 import cv2
 import os
-i m a g e d i r = r ”C: \ U s e r s \ Aditi\ Desktop \ADS PROJECT\ d a t a c o l l e c t i o n ”
-for f i l e n a m e in os . l i s t d i r ( i m a g e d i r ) :
-image path = os . path . j o i n ( i m a g e d i r , f i l e n a m e )
-img = cv2 . imread ( image path )
-h e i g h t , width , = img . shape
-print ( f ” Image : { f i l e n a m e } , Height : { h e i g h t } , Width : { width }” )
+image_dir = r"C:\Users\Aditi\Desktop\ADS PROJECT\datacollection"
+for filename in os.listdir(image_dir):
+    image_path = os.path.join(image_dir, filename)
+    img = cv2.imread(image_path)
+    height, width, _ = img.shape
+    print(f"Image: {filename}, Height: {height}, Width: {width}")
+
 ~~~
 
 ## Data Pre-Processing
