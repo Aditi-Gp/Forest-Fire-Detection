@@ -35,7 +35,18 @@ appropriately resized.
 ## Data Splitting
 70-15-15 split for training, testing, and validation sets,
 
-## Model Selection & Development'
+## Model Selection & Development
 Choosing a Convolutional Neural Network (CNN) for forest fire detection is rooted in its capacity
 to automatically learn hierarchical features from images. \
-Libraries used are TensorFlow and Keras
+~~~
+import numpy as np
+import os
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, Dense, Flatten
+import cv2
+import matplotlib.pyplot as plt
+~~~
+
+
+## Output
+Total accuracy obtained is approximately 0.916 i.e 91.6%
