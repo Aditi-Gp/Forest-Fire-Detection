@@ -3,11 +3,12 @@ Developing a CNN-based system for early forest fire detection is crucial to safe
 "Introducing our cutting-edge CNN-based Forest Fire Detection Model! Safeguarding the environment, wildlife, and lives is our priority. Early detection is key, and our advanced deep learning technology ensures swift identification of potential forest fires. Experience the power of innovation for effective and timely firefighting. Protect what matters most with our state-of-the-art solution!
 
 ## Data Collection
-A total of 636 images were gathered from the following online sources:
-• Pixabay:https://pixabay.com/images/search/forest%20fire/
-• Getty Images: https://www.gettyimages.in/photos/forest-fire
-• Pexels: https://www.pexels.com/search/forest/
-• iStockphoto: https://www.istockphoto.com/photos/forest
+A total of 636 images were gathered from the following online sources:\
+• Pixabay:https://pixabay.com/images/search/forest%20fire/\
+• Getty Images: https://www.gettyimages.in/photos/forest-fire\
+• Pexels: https://www.pexels.com/search/forest/\
+• iStockphoto: https://www.istockphoto.com/photos/forest\
+
 It’s worth noting that the collected images varied in size. Subsequently, these images have been
 stored in an unstructured data format within Google Drive.
 
