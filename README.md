@@ -9,7 +9,7 @@ stored in an unstructured data format within Google Drive.
 
 ## Exploratory Data Analysis (EDA)
 To assess the uniformity in the dimensions of images \
-"""
+'''
 import cv2
 import os
 i m a g e d i r = r ”C: \ U s e r s \ s r i h i t h a pulapa \ Desktop \ADS PROJECT\ d a t a c o l l e c t i o n ”
@@ -18,7 +18,7 @@ image path = os . path . j o i n ( i m a g e d i r , f i l e n a m e )
 img = cv2 . imread ( image path )
 h e i g h t , width , = img . shape
 print ( f ” Image : { f i l e n a m e } , Height : { h e i g h t } , Width : { width }” )
-"""
+'''
 
 ## Data Pre-Processing
 ### Data resizing
